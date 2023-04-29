@@ -3,3 +3,78 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+/* estilos generales */
+html {
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  background-color: #141414; }
+
+header {
+  background-color: #e30613;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 3; }
+  header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem; }
+    header nav ul li a {
+      text-decoration: none;
+      color: white; }
+
+#menu {
+  background-color: #e30613; }
+
+#navBarDesktop {
+  display: none; }
+
+.logo {
+  align-items: center; }
+
+.usuario {
+  display: flex;
+  gap: 1rem; }
+  .usuario a img {
+    width: 30px; }
+
+/* estilos generales*/
+/*header*/
+/* main */
+/* titulos */
+/* parrafos reseteados porque al usar bootstrap le da margin */
+/* footer */
+/* estilos banner */
+/* estilos index */
+/* nuevos lanzamientos*/
+/* destacados de la semana /*
+
+/* estilos productos */
+/* estilos ofertas */
+/* estilos nosotros */
+/* estilos contacto */
+/* estilos remeras */
+/* mq tablet */
+/* header style */
+/* main style */
+/* banner principal */
+/* banner secundario */
+/* nuevos lanzamientos */
+/* destacados de la semana */
+/* ofertas page */
+/* estilos remeras page*/
+/* footer */
+/* mq desktop */
+/* banner principal */
+/* banner secundario */
+/* nuevos lanzamientos */
+/* destacados de la semana */
+/* seccion ofertas */
+/* remeras page */
+/* footer */

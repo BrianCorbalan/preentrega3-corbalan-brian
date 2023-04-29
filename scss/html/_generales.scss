@@ -1,0 +1,60 @@
+// variables
+
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+/* estilos generales */
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: $color-fondo;
+}
+
+header{
+    background-color: $color-principal;
+    @include flex-center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    nav{
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+            li{
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+
+        }
+    }
+}
+
+#menu {
+    background-color: $color-principal;
+}
+
+#navBarDesktop{
+    display: none;
+}
+
+.logo{
+    align-items: center;
+}
+
+.usuario {
+    display: flex;
+    gap: 1rem;
+    a{
+        img{
+            width: 30px;
+        }
+    }
+}
