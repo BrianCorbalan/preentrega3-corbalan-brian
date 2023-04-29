@@ -4,4 +4,19 @@
 $color-principal: #e30613;
 
 // color fondo
-$color-fondo: #141414
+$color-fondo: #141414;
+
+// color letra principal
+$color-letra: #ffffff;
+
+//medida standard
+$medida-standard: 1rem;
+
+//tamaño de la font en version mobile
+$tamaño-mobile: 10px;
+
+//tamaño de la font en version tablet
+$font-tablet: 12px;
+
+//tamaño de la font en version desktop
+$font-desktop: $medida-standard;

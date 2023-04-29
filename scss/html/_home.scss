@@ -1,52 +1,46 @@
 // variables
 @import "../utilidades/variables";
 
-
-/* estilos generales*/
-
-/*header*/
-
-/* main */
-
-/* titulos */
-
-/* parrafos reseteados porque al usar bootstrap le da margin */
-
-/* footer */
-
-/* estilos banner */
-
 /* estilos index */
-/* nuevos lanzamientos*/
+/* Nuevos Lanzamientos */
 
-/* destacados de la semana /*
+.nuevosLanzamientos{
+    height: 200vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,25%);
+}
 
-/* estilos productos */
+.ofertas{
+    margin-bottom: 1rem;
+    a{
+        img{
+            width: 100%;
+            height: 85%;
+            object-fit: cover;
+            background-color: white;
+            border-radius: 15px;
+        }
+    }
+}
 
-/* estilos ofertas */
+.off{
+    color: $color-principal;
 
-/* estilos nosotros */
+}
 
-/* estilos contacto */
+/* Destacados de la semana */
 
-/* estilos remeras */
+.destacadosSemana{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,50%);
+    gap: 1rem;
+    margin-bottom: 2rem;
 
-/* mq tablet */
-    /* header style */
-    /* main style */
-    /* banner principal */
-    /* banner secundario */
-    /* nuevos lanzamientos */
-    /* destacados de la semana */
-    /* ofertas page */
-    /* estilos remeras page*/
-    /* footer */
+}
 
-/* mq desktop */
-    /* banner principal */
-    /* banner secundario */
-    /* nuevos lanzamientos */
-    /* destacados de la semana */
-    /* seccion ofertas */
-    /* remeras page */
-    /* footer */
+.productoCinco{
+    display: none;
+}

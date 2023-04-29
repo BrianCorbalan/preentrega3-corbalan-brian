@@ -1,5 +1,4 @@
 // variables
-
 @import "../utilidades/variables";
 @import "../utilidades/mixin";
 
@@ -11,11 +10,13 @@ html {
 
 body{
     background-color: $color-fondo;
+    color: $color-letra;
 }
+    
 
 header{
     background-color: $color-principal;
-    @include flex-center;
+    @include flex-center-between;
     padding: 20px;
     width: 100%;
     position: fixed;
@@ -25,11 +26,11 @@ header{
         ul{
             display: flex;
             list-style: none;
-            gap: 1rem;
+            gap: $medida-standard;
             li{
                 a{
                     text-decoration: none;
-                    color: white;
+                    color: $color-letra;
                 }
             }
 
@@ -51,10 +52,40 @@ header{
 
 .usuario {
     display: flex;
-    gap: 1rem;
+    gap: $medida-standard;
     a{
         img{
             width: 30px;
         }
     }
+}
+
+/* titulos */
+
+h1{
+    font-family: 'gloock', serif;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 10px; 
+}
+
+h2 {
+    text-align: center;
+    font-family: 'gloock', serif;
+}
+
+/* parrafos reseteados por mi, porque bootstrap hace lo que quiere */
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.whatsapp{
+    display: none;
+}
+
+.whatsappPhone{
+    position: sticky;
+    bottom: 20%;
+    left: 85%;
 }
