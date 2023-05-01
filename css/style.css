@@ -8,6 +8,10 @@
   background-color: white;
   border-radius: 15px; }
 
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
+
 /* estilos generales */
 html {
   font-family: 'Roboto', sans-serif; }
@@ -58,6 +62,25 @@ p {
   bottom: 10%;
   left: 85%; }
 
+/* animaciones */
+.animacionCaja {
+  transition: all 0.5s ease-in-out; }
+  .animacionCaja:hover {
+    transform: scale(1.02);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.1); }
+
+.animacionNuevosLanzamientos {
+  transition: all 0.7s ease-in-out; }
+  .animacionNuevosLanzamientos:hover {
+    transform: scale(1.04);
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.1); }
+
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
@@ -80,6 +103,10 @@ header {
     header nav ul li a {
       text-decoration: none;
       color: #ffffff; }
+
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
 
 .ofertas a img, .productosOfertas img {
   background-color: white;
@@ -119,6 +146,10 @@ header {
   background-color: white;
   border-radius: 15px; }
 
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
+
 /* footer */
 footer {
   background-color: #e30613;
@@ -146,6 +177,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 2rem; }
+
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
 
 .ofertas a img, .productosOfertas img {
   background-color: white;
@@ -186,7 +221,15 @@ footer {
   background-color: white;
   border-radius: 15px; }
 
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
+
 /* estilo productos */
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
@@ -216,6 +259,10 @@ footer {
   background-color: white;
   border-radius: 15px; }
 
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
+
 /*estilos nosotros*/
 .nosotros {
   text-align: center;
@@ -223,6 +270,10 @@ footer {
 
 .nosotros h2 {
   margin-bottom: 1rem; }
+
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
 
 .ofertas a img, .productosOfertas img {
   background-color: white;
@@ -269,11 +320,15 @@ footer {
   background-color: white;
   border-radius: 15px; }
 
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
+
 /*estilos remeras*/
 .remeraYDescripcion {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 10% 60% 30%;
+  grid-template-rows: 10% 45% 45%;
   gap: 1rem; }
   .remeraYDescripcion h1 {
     font-size: 3rem; }
@@ -287,6 +342,10 @@ footer {
 
 .descripcionDeLaRemera {
   padding: 1rem; }
+
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
 
 .ofertas a img, .productosOfertas img {
   background-color: white;
@@ -371,6 +430,10 @@ footer {
     position: sticky;
     bottom: 5%;
     left: 90%; } }
+
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
 
 .ofertas a img, .productosOfertas img {
   background-color: white;

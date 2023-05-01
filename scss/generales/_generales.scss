@@ -68,3 +68,19 @@ p {
     bottom: 10%;
     left: 85%;
 }
+
+/* animaciones */
+
+.animacionCaja{
+    @include animacion-duracion(0.5s);
+    &:hover{
+        @include animacion-hover(1.02);
+    }
+}
+
+.animacionNuevosLanzamientos{
+    @include animacion-duracion(0.7s);
+    &:hover{
+        @include animacion-hover(1.04);
+    }
+}

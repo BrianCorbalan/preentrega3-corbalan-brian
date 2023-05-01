@@ -21,13 +21,13 @@
     img{
         @extend %tarjeta-ofertas;
         padding: 10px;
-        margin: 10px 5px 10px 0px;
+        margin: 10px 5px 10px 0px;         
     }
 }
 
 
 .precioViejo{
-    color:grey;
+    color:$color-precio-viejo;
     text-decoration: line-through;
     font-size: 12px;
 }

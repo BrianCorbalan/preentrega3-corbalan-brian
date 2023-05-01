@@ -8,7 +8,7 @@
 .remeraYDescripcion{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10% 60% 30%;
+    grid-template-rows: 10% 45% 45%;
     gap: $medida-standard;
     h1{
         font-size: $medida-standard*3;

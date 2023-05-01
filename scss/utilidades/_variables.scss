@@ -9,6 +9,9 @@ $color-fondo: #141414;
 // color letra principal
 $color-letra: #ffffff;
 
+// color letra precio viejo
+$color-precio-viejo: grey;
+
 //medida standard
 $medida-standard: 1rem;
 
@@ -20,3 +23,6 @@ $font-tablet: 12px;
 
 //tamaño de la font en version desktop
 $font-desktop: $medida-standard;
+
+//border radius standard
+$border-radius-standard: 15px;

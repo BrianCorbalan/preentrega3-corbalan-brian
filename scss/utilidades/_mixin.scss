@@ -1,3 +1,7 @@
+// variables
+@import "../utilidades/variables";
+@import "../utilidades/extend";
+
 // flex center between
 @mixin flex-center{
     display: flex;
@@ -8,6 +12,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@mixin animacion-duracion($duracion){
+    transition: all $duracion ease-in-out;
+}
+
+@mixin animacion-hover($scale){
+    transform: scale($scale);
+    border-radius: $border-radius-standard;
+    box-shadow: 2px 2px 5px 1px rgba(255, 255, 255, 0.1);    
 }
 
 

@@ -37,9 +37,8 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,50%);
-    gap: 1rem;
-    margin-bottom: 2rem;
-
+    gap: $medida-standard;
+    margin-bottom: $medida-standard*2;
 }
 
 .productoCinco{
