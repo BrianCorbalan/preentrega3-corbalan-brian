@@ -8,9 +8,17 @@
   background-color: white;
   border-radius: 15px; }
 
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
+
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
 
 /* estilos generales */
 html {
@@ -81,9 +89,17 @@ p {
   background-color: white;
   border-radius: 15px; }
 
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
+
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
 
 /* estilos header*/
 header {
@@ -108,9 +124,17 @@ header {
   background-color: white;
   border-radius: 15px; }
 
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
+
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
 
 /* estilos index */
 /* Nuevos Lanzamientos */
@@ -146,9 +170,17 @@ header {
   background-color: white;
   border-radius: 15px; }
 
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
+
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
 
 /* footer */
 footer {
@@ -182,9 +214,17 @@ footer {
   background-color: white;
   border-radius: 15px; }
 
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
+
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
 
 /* estilos banner */
 .bannerPrincipal {
@@ -221,18 +261,34 @@ footer {
   background-color: white;
   border-radius: 15px; }
 
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
+
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
 
 /* estilo productos */
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
 
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
+
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
 
 /* estilo ofertas */
 .ofertasOfertas {
@@ -259,9 +315,17 @@ footer {
   background-color: white;
   border-radius: 15px; }
 
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
+
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
 
 /*estilos nosotros*/
 .nosotros {
@@ -275,9 +339,17 @@ footer {
   background-color: white;
   border-radius: 15px; }
 
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
+
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
 
 /*estilos contacto*/
 .backgroundImg {
@@ -293,8 +365,6 @@ footer {
   margin: 1rem 0px 1rem 0px;
   width: 100%; }
   .formDatos input {
-    border-style: none;
-    border-radius: 5px;
     width: 100%;
     padding: 5px; }
 
@@ -304,25 +374,29 @@ footer {
   .btnEnviar input {
     color: #ffffff;
     background-color: #e30613;
-    padding: 10px;
-    border-style: none;
-    border-radius: 5px; }
+    padding: 10px; }
 
 #text {
   margin-top: 1rem;
   width: 100%;
   height: 100px;
-  border-style: none;
-  border-radius: 5px;
   padding: 1rem; }
 
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
 
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
+
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
 
 /*estilos remeras*/
 .remeraYDescripcion {
@@ -347,9 +421,17 @@ footer {
   background-color: white;
   border-radius: 15px; }
 
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
+
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
 
 /* mq tablet */
 @media screen and (min-width: 600px) {
@@ -435,9 +517,17 @@ footer {
   background-color: white;
   border-radius: 15px; }
 
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
+
 .ofertas a img, .productosOfertas img {
   background-color: white;
   border-radius: 15px; }
+
+.formDatos input, .btnEnviar input, #text {
+  border-style: none;
+  border-radius: 5px; }
 
 /* mq desktop */
 @media screen and (min-width: 1024px) {
