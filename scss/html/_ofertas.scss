@@ -1,6 +1,7 @@
 // variables
 @import "../utilidades/variables";
 @import "../utilidades/mixin";
+@import "../utilidades/extend";
 
 
 /* estilo ofertas */
@@ -18,8 +19,7 @@
     display: inline-block;
     margin-bottom: 20px;
     img{
-        background-color: white;
-        border-radius: 15px;
+        @extend %tarjeta-ofertas;
         padding: 10px;
         margin: 10px 5px 10px 0px;
     }
