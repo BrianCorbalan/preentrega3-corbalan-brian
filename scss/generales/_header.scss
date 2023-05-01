@@ -1,0 +1,29 @@
+// variables
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+@import "../utilidades/extend";
+
+/* estilos header*/
+header{
+    background-color: $color-principal;
+    @include flex-center-between;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    nav{
+        ul{
+            display: flex;
+            list-style: none;
+            gap: $medida-standard;
+            li{
+                a{
+                    text-decoration: none;
+                    color: $color-letra;
+                }
+            }
+
+        }
+    }
+}

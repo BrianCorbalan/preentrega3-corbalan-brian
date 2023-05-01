@@ -16,24 +16,6 @@ body {
   background-color: #141414;
   color: #ffffff; }
 
-header {
-  background-color: #e30613;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  width: 100%;
-  position: fixed;
-  top: 0px;
-  z-index: 3; }
-  header nav ul {
-    display: flex;
-    list-style: none;
-    gap: 1rem; }
-    header nav ul li a {
-      text-decoration: none;
-      color: #ffffff; }
-
 #menu {
   background-color: #e30613; }
 
@@ -48,6 +30,9 @@ header {
   gap: 1rem; }
   .usuario a img {
     width: 30px; }
+
+main {
+  margin-top: 90px; }
 
 /* titulos */
 h1 {
@@ -72,6 +57,29 @@ p {
   position: sticky;
   bottom: 10%;
   left: 85%; }
+
+.ofertas a img, .productosOfertas img {
+  background-color: white;
+  border-radius: 15px; }
+
+/* estilos header*/
+header {
+  background-color: #e30613;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 3; }
+  header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem; }
+    header nav ul li a {
+      text-decoration: none;
+      color: #ffffff; }
 
 .ofertas a img, .productosOfertas img {
   background-color: white;

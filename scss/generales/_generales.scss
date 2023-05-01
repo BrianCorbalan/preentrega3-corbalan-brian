@@ -13,31 +13,6 @@ body{
     background-color: $color-fondo;
     color: $color-letra;
 }
-    
-
-header{
-    background-color: $color-principal;
-    @include flex-center-between;
-    padding: 20px;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-    z-index: 3;
-    nav{
-        ul{
-            display: flex;
-            list-style: none;
-            gap: $medida-standard;
-            li{
-                a{
-                    text-decoration: none;
-                    color: $color-letra;
-                }
-            }
-
-        }
-    }
-}
 
 #menu {
     background-color: $color-principal;
@@ -61,8 +36,11 @@ header{
     }
 }
 
-/* titulos */
+main{
+    margin-top: 90px;
+}
 
+/* titulos */
 h1{
     font-family: 'gloock', serif;
     text-align: center;

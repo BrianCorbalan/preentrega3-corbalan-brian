@@ -6,14 +6,15 @@
 }
 
 // import
-@import "html/generales";
+@import "generales/generales";
+@import "generales/header";
 @import "html/home";
-@import "html/footer";
-@import "html/banner";
+@import "generales/footer";
+@import "generales/banner";
 @import "html/productos";
 @import "html/ofertas";
 @import "html/nosotros";
 @import "html/contacto";
 @import "html/remeras";
-@import "html/tablet";
-@import "html/desktop";
+@import "mq/tablet";
+@import "mq/desktop";
