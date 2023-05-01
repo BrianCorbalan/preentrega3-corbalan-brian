@@ -70,7 +70,7 @@ p {
 
 .whatsappPhone {
   position: sticky;
-  bottom: 20%;
+  bottom: 10%;
   left: 85%; }
 
 .ofertas a img, .productosOfertas img {
@@ -361,7 +361,7 @@ footer {
     display: block; }
   .whatsappPhone {
     position: sticky;
-    bottom: 30%;
+    bottom: 5%;
     left: 90%; } }
 
 .ofertas a img, .productosOfertas img {
@@ -430,7 +430,7 @@ footer {
   .whatsapp {
     display: block;
     position: sticky;
-    bottom: 25%;
+    bottom: 10%;
     left: 85%; }
   .whatsappPhone {
     display: none; } }
